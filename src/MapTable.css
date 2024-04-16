@@ -1,0 +1,53 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  /* Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Table header */
+  th {
+    background-color:rgb(1, 89, 161);
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: left;
+    padding: 12px;
+  }
+  
+  /* Table body */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Alternate row background color */
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect */
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Input styles */
+  input[type="text"],
+  input[type="checkbox"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="checkbox"] {
+    width: auto;
+  }
+  

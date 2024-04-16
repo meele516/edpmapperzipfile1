@@ -1,0 +1,35 @@
+.sidedrawer {
+    font-family: sans-serif;
+
+
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  
+
+  
+  .openButton {
+    background-color: #719c70;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .openButton:hover {
+    border: 1px solid black;
+  }
+  
+  .drawer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-size: 25px;
+    padding-top: 20px;
+    
+  }
+  
